@@ -1,0 +1,41 @@
+---
+layout:     post
+title:      "Junit实战"
+date:       2016-12-28 15:23:00
+author:     "Romennts"
+categories: Junit
+tags: 单元测试 Java
+---
+
+* content
+{:toc}
+
+> 期末复习顺便总结
+
+#### Junit3X和4X异同
+
+1. 测试类必须是共有的
+2. 3X需要继承TestCase（extends TestCase），4X只需要添加@Test注解
+3. 3X的测试方法必须以 test 开头，4X则是随意
+4. assertEquals表示断言
+5. 一个测试类是@Test方法的容器
+
+
+
+
+#### 使用Suite与Runner组合测试
+
+1. Suite允许你将测试类归成一组
+2. Runner用来运行测试
+
+#### 使用stub进行粗粒度测试
+
+#### 使用mock测试
+
+#### 构建工具的使用
+
+#### 使用cactus进行服务端测试
+
+#### 测试数据库访问
+
+#### Parasoft Jtest的使用
